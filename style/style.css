@@ -46,7 +46,7 @@ ul {
     -webkit-transform-origin: 100% 0%;
     transform-origin: 100% 0%;
     transition: all 150ms;
-    display: none;
+    opacity: 0;
 }
 
 .dropdown-header {
@@ -99,7 +99,6 @@ ul {
     min-width: 14em;
     padding: 0.9em 1em;
     cursor: pointer;
-    opacity: 0;
     -webkit-user-select: none;
     user-select: none;
 }

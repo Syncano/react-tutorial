@@ -10,7 +10,11 @@ var DropdownIcons = React.createClass({
 
   render: function() {
     var items = this.props.items.map(function(item, i) {
-      return (<li><Icon type={item} key={i} /></li>);
+      return (
+        <li>
+          <Icon type={item} key={item.type + i} />
+        </li>
+      );
     }.bind(this))
     return (
       <ul className="dropdown-icons">
