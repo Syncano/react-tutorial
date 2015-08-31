@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBF1F5;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    height: 3.750em;
+    width: 100%;
+    background-color: #0091EA;
+}
+
+.header .icon-options {
+    width: 1.563em;
+    height: 1.563em;
+    left: auto;
+}
+
+.header-inner {
+    float: right;
+    position: relative;
+    top: 1em;
+    right: 1em;
+}
+
+.dropdown-menu {
+    color: #4D4D4D;
+    position: absolute;
+    top: 0.13em;
+    left: auto;
+    right: 0.03em;
+    background-color: white;
+    box-shadow: -2px 2px 15px 2px rgba(0,0,0,0.15);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    transition: all 150ms;
+    opacity: 0;
+}
+
+.dropdown-header {
+    padding: 0.9em 1em;
+    overflow: auto;
+}
+
+.dropdown-header .icon-options {
+    width: 1.563em;
+    height: 1.563em;
+    top: -0.1em;
+    left: 0.5em;
+}
+
+.dropdown-toggle {
+    float: right;
+}
+
+.dropdown-icons {
+    float: left;
+}
+
+.dropdown-icons .icon {
+    width: 1.250em;
+    height: 1.250em;
+    position: relative;
+}
+
+.dropdown-icons .icon-reload {
+    width: 1.063em;
+    height: 1.063em;
+    top: 0.15em;
+}
+
+.dropdown-icons li {
+    float: left;
+    margin-right: 2.9em;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.dropdown-items .dropdown-item {
+    min-width: 14em;
+    padding: 0.9em 1em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.dropdown-items .dropdown-item:hover {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    text-transform: uppercase;
+    color: white;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.5em 2em;
+    background: #0091EA;
+    margin: 1em;
+    user-select: none;
+    -webkit-user-select: none;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+    transition: all 100ms;
+}
+
+.btn:hover {
+    box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.20);
+}
